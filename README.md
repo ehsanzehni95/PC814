@@ -1,8 +1,11 @@
 # PC814 Zero-Crossing Detection Optocoupler Library
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/PC814_Library)
+
 **Author:** Ehsan Zehni  
-**Version:** 1.0  
-**Date:** 2025
+**Version:** 1.0.0  
+**Date:** 2025-12-24
 
 Complete embedded library for PC814 zero-crossing detection optocoupler with Timer Input Capture support, configurable pull-up/pull-down GPIO settings, line frequency measurement, phase angle calculations, statistics, and callback functions. Includes comprehensive three-phase system support with automatic phase sequence detection (ABC/ACB) and swap recommendations. Production-ready for AC 220V single-phase and three-phase zero-crossing detection applications.
 
@@ -50,6 +53,19 @@ A comprehensive, production-ready C library for interfacing with PC814 zero-cros
 - `PC814.h`: Header file with all definitions and functions
 - `PC814.c`: Complete library implementation
 - `PC814_Example.c`: Complete usage example with Timer Input Capture
+
+## Table of Contents
+
+- [Features](#features)
+- [Hardware Connections](#hardware-connections)
+- [Quick Start](#quick-start)
+- [Timer Input Capture Configuration](#timer-input-capture-configuration)
+- [Three-Phase System Support](#three-phase-system-support)
+- [Main Functions](#main-functions)
+- [Usage Examples](#usage-examples)
+- [File Structure](#file-structure)
+- [License](#license)
+- [Author](#author)
 
 ## Quick Start
 
@@ -508,19 +524,35 @@ if (pc814_threephase_is_sequence_correct(&threephase)) {
 
 ## File Structure
 
+### Core Library Files
 - `PC814.h`: Header file with all definitions and functions
 - `PC814.c`: Complete library implementation (~500+ lines)
-- `PC814_Example.c`: Complete usage examples with 8+ examples
+
+### Three-Phase Support (Optional)
 - `PC814_ThreePhase.h`: Three-phase system header
 - `PC814_ThreePhase.c`: Three-phase system implementation
+
+### Examples
+- `PC814_Example.c`: Complete usage examples with 8+ examples
 - `PC814_ThreePhase_Example.c`: Three-phase usage examples
-- `README.md`: Complete documentation
+
+### Documentation
+- `README.md`: Complete documentation (this file)
 - `DESCRIPTION.md`: Short description for GitHub
 - `FEATURES.md`: Complete feature list
+- `PC814_ThreePhase_Guide.md`: Three-phase system guide
+- `QUICK_START.md`: Quick start guide
+- `INSTALL.md`: Installation guide
+
+### Project Files
+- `LICENSE`: MIT License
+- `CHANGELOG.md`: Version history
+- `CONTRIBUTING.md`: Contribution guidelines
+- `.gitignore`: Git ignore file
 
 ## License
 
-[Add your license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
@@ -528,7 +560,19 @@ if (pc814_threephase_is_sequence_correct(&threephase)) {
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Installation
+
+See [INSTALL.md](INSTALL.md) for detailed installation instructions.
+
+## Quick Start
+
+See [QUICK_START.md](QUICK_START.md) for a quick 5-minute setup guide.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
 
 ## Acknowledgments
 
