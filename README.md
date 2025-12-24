@@ -6,7 +6,7 @@
 
 Complete embedded library for PC814 zero-crossing detection optocoupler with Timer Input Capture support, configurable pull-up/pull-down GPIO settings, line frequency measurement, phase angle calculations, statistics, and callback functions. Includes comprehensive three-phase system support with automatic phase sequence detection (ABC/ACB) and swap recommendations. Production-ready for AC 220V single-phase and three-phase zero-crossing detection applications.
 
-**Short Description for GitHub (max 350 chars):**
+**Short Description for GitHub:**
 
 PC814 zero-crossing detection library with Timer Input Capture, pull-up/pull-down config, frequency measurement, phase calculations, statistics, callbacks. Includes three-phase support with automatic phase sequence detection (ABC/ACB) and swap recommendations. For AC 220V single/three-phase applications.
 
